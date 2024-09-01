@@ -1,0 +1,32 @@
+.footer {
+    background-color: #282c34; 
+    color: white; /* Text color */
+    text-align: center;
+    padding: 1.5rem 0; /* Padding for top and bottom */
+    position: fixed; /* Fix footer at the bottom */
+    width: 100%; /* Full width */
+    bottom: 0; /* Position at the bottom */
+  }
+  
+  .social-icons {
+    display: flex; /* Uses flexbox for icon layout */
+    justify-content: center; /* Centers icons horizontally */
+    gap: 1.5rem; /* Space between icons */
+    margin-bottom: 0.5rem; /* Margin at the bottom of the icon container */
+  }
+  
+  .icon {
+    color: white; /* Icon color */
+    font-size: 1.5rem; /* Icon size */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .icon:hover {
+    color: #61dafb; /* Change color on hover */
+  }
+  
+  .footer-text {
+    font-size: 0.9rem; /* Smaller font size for footer text */
+    margin-top: 0; /* Remove top margin */
+  }
+  
