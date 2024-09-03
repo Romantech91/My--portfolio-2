@@ -3,17 +3,18 @@
 
 import React from 'react';
 import './About.css';
-import profilePhoto from '../assets/photo.jpg';
+import profilePhoto from '../assets/VictorProfile.jpg';
+import resumeFile from '../assets/Victor-A.-Roman-Resume.pdf';
 
 function About() {
   return (
     <section className="about">
       <div className="about-content">
         <img 
-          src="/path/to/your/photo.jpg" 
+          src={profilePhoto}
           alt="Victor A. Roman" 
           className="about-photo"
-           
+
         />
         <div className="about-text">
           <h2>About Me</h2>
@@ -26,7 +27,7 @@ function About() {
           <p>
             When I'm not coding, I enjoy welding, kayaking, camping and of course spending time with all my loved ones. I am always eager to learn new skills and take on challenging projects that help me grow as a developer.
           </p>
-          <a href="/path/to/resume.pdf" className="resume-link" download>Download My Resume</a>
+          <a href={resumeFile} className="resume-link" download>Download My Resume</a>
 
         </div>
       </div>
