@@ -8,6 +8,7 @@ import './Footer.css';
 function Footer() {
   return (
     <footer className="footer">
+      
       <div className="social-icons">
         <a href="https://github.com/Romantech91" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faGithub} className="icon" />

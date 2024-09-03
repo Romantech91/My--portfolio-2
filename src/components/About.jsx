@@ -12,7 +12,8 @@ function About() {
         <img 
           src="/path/to/your/photo.jpg" 
           alt="Victor A. Roman" 
-          className="about-photo" 
+          className="about-photo"
+           
         />
         <div className="about-text">
           <h2>About Me</h2>
@@ -26,6 +27,7 @@ function About() {
             When I'm not coding, I enjoy welding, kayaking, camping and of course spending time with all my loved ones. I am always eager to learn new skills and take on challenging projects that help me grow as a developer.
           </p>
           <a href="/path/to/resume.pdf" className="resume-link" download>Download My Resume</a>
+
         </div>
       </div>
     </section>
