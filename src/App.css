@@ -1,8 +1,37 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
+  display: flex; 
+  flex-direction: column; 
+  min-height: 100vh;
+  max-width: 1280px; 
+  margin: 0 auto; 
   padding: 2rem;
+  box-sizing: border-box; 
+  
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Center content vertically */
+  width: 100%;
   text-align: center;
+  padding: 2rem 0;
+  box-sizing: border-box;
+}
+
+footer {
+  display: flex; /* Use Flexbox for the footer to center-align its content */
+  justify-content: center; /* Center-align content horizontally */
+  align-items: center; /* Center-align content vertically */
+  background-color: #282c34; /* Example background color */
+  color: white; /* Footer text color */
+  padding: 1rem 0; /* Space around the text */
+  width: 100%; /* Full width */
+  margin-top: auto; /* Push the footer to the bottom of the page */
+  text-align: center;
+  box-sizing: border-box; /* Center text within the footer */
 }
 
 .logo {

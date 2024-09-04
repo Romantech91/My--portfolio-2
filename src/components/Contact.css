@@ -4,6 +4,8 @@
     text-align: center;
     max-width: 600px;
     margin: 0 auto;
+    box-sizing: border-box;
+    
   }
   
   .contact h2 {
@@ -24,6 +26,7 @@
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 1rem;
+    box-sizing: border-box;
   }
   
   textarea {
