@@ -1,11 +1,14 @@
 .about {
-  background-color: #2c2c2c; 
-  color: #e0e0e0; 
-  padding: 2rem;
-  max-width: 800px;
-  margin: 0 auto;
-  border-radius: 8px; 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: rgba(44, 44, 44, 0.5); /* Semi-transparent dark background */
+  color: #e0e0e0; /* Text color for readability */
+  padding: 2rem; /* Padding inside the card */
+  max-width: 800px; /* Limit width for alignment */
+  margin: 2rem auto; /* Center align with margin */
+  border-radius: 12px; /* Softer rounded corners */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Deeper shadow for floating effect */
+  backdrop-filter: blur(6px); /* Blur effect for modern look */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle border */
+  text-align: center; /* Center all text for consistency */
 }
 
 .about-content {
@@ -30,29 +33,51 @@
 }
 
 .about-text h2 {
-  font-size: 2rem; 
-  margin-bottom: 1rem; 
-  color: #f0f0f0;
+  font-size: 2.5rem; /* Slightly larger for better readability */
+  margin-bottom: 1.2rem;
+  color: #ffffff; /* Pure white for headers */
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6); /* Add text shadow for contrast */
 }
 
 .about-text p {
-  font-size: 1rem; 
-  line-height: 1.6;
-  margin-bottom: 1rem; 
-  color: #cccccc;
+  font-size: 1.1rem; /* Slightly larger text for readability */
+  line-height: 1.8;
+  margin-bottom: 1rem;
+  color: #d0d0d0; /* Lighter gray for better readability */
 }
 
 .resume-link {
   display: inline-block;
-  padding: 0.5rem 1rem; 
-  margin-top: 1rem; 
-  background-color: #7a9fff; 
-  color: white; 
-  text-decoration: none; 
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
+  padding: 0.7rem 1.5rem;
+  margin-top: 1rem;
+  background: linear-gradient(90deg, #ffe66d, #ffd700); /* Warm yellow gradient */
+  color: #333333; /* Dark text for contrast */
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1rem;
+  box-shadow: 0 4px 10px rgba(255, 214, 0, 0.5); /* Soft yellow glow */
+  transition: all 0.3s ease;
 }
 
 .resume-link:hover {
-  background-color: #5f8eff; 
+  background: linear-gradient(90deg, #ffd700, #ffe66d); /* Reverse gradient */
+  box-shadow: 0 6px 15px rgba(255, 214, 0, 0.7); /* Stronger glow on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+
+@media (max-width: 768px) {
+  .about {
+    padding: 1.5rem; /* Reduce padding on smaller screens */
+    margin: 1rem auto; /* Adjust margin for spacing */
+  }
+
+  .about-text h2 {
+    font-size: 2rem; /* Adjust font size for smaller screens */
+  }
+
+  .about-text p {
+    font-size: 1rem; /* Adjust paragraph text for smaller screens */
+  }
 }
