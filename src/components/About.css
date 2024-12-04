@@ -33,11 +33,14 @@
 }
 
 .about-text h2 {
-  font-size: 2.5rem; /* Slightly larger for better readability */
-  margin-bottom: 1.2rem;
-  color: #ffffff; /* Pure white for headers */
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6); /* Add text shadow for contrast */
+  font-size: 2.5rem; /* Keep the current size for readability */
+  margin-bottom: 1.2rem; /* Ensure proper spacing */
+  background: linear-gradient(90deg, #ffe66d, #ffd700, #ffffff); /* Add gradient effect */
+  -webkit-background-clip: text; /* Clip background to text */
+  -webkit-text-fill-color: transparent; /* Make the gradient visible */
+  text-shadow: none; /* Remove text shadow for clarity */
 }
+
 
 .about-text p {
   font-size: 1.1rem; /* Slightly larger text for readability */

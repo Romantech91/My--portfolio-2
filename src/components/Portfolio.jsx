@@ -8,7 +8,7 @@ function Portfolio() {
     {
       title: 'Grow Zone Tracker',
       image: growZoneTrackerImage,
-      deployLink: 'https://live-demo1.com',
+      deployLink: 'https://bbbjrn.github.io/Group03-Project-GrowZoneTracker/',
       repoLink: 'https://github.com/Bbbjrn/Group03-Project-GrowZoneTracker',
     },
    

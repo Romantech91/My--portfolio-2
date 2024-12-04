@@ -1,36 +1,41 @@
 footer {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #1a1a1a; 
-  color: #e0e0e0; 
-  padding: 1.5rem 0; 
+  background-color: rgba(44, 44, 44, 0.5); /* Semi-transparent */
+  color: #e0e0e0;
+  padding: 1.5rem 0;
   width: 100%;
   margin-top: auto;
   text-align: center;
   box-sizing: border-box;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5); /* Slight shadow to separate footer from content */
 }
 
 .social-icons {
-  display: flex; 
+  display: flex;
   justify-content: center;
-  gap: 1.5rem; 
+  gap: 1.5rem;
   margin-bottom: 0.5rem;
 }
 
 .icon {
-  color: #e0e0e0; 
-  font-size: 1.5rem; 
-  transition: color 0.3s ease;
+  color: rgba(255, 255, 255, 0.7); /* Slight transparency */
+  font-size: 1.8rem; /* Larger size for visibility */
+  transition: color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .icon:hover {
-  color: #7a9fff; 
+  color: #f4e64c; /* Bright yellow glow to match the theme */
+  box-shadow: 0 0 15px #f4e64c; /* Glow effect */
+  transform: scale(1.1); /* Slight zoom on hover */
 }
 
 .footer-text {
   font-size: 0.9rem;
-  margin-top: 0.5rem; 
-  color: #b0b0b0;
+  margin-top: 0.5rem;
+  background: linear-gradient(90deg, #f4e64c, #ffffff); /* Subtle glow gradient */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
