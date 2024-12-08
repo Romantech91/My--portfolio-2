@@ -1,8 +1,10 @@
 .navigation {
   display: flex;
   justify-content: center;
+  align-items: center;
   padding: 1rem 0;
-  background-color: #1e1e1e; 
+  background-color: transparent; /* Use transparent background */
+  gap: 1.5rem; /* Space out navigation items */
 }
 
 .nav-list {
@@ -12,20 +14,49 @@
   margin: 0;
   padding: 0;
 }
-  
-  .nav-item {
-    margin: 0;
-    padding: 0; 
+
+.nav-item {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  display: inline-block; /* Make links behave like buttons */
+  padding: 0.8rem 1.5rem; /* Add padding for button-like appearance */
+  font-weight: 600;
+  font-size: 1rem;
+  color: #e0e0e0; /* Light text color */
+  text-decoration: none;
+  text-align: center;
+  background-color: rgba(44, 44, 44, 0.5); /* Semi-transparent background */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle border */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a soft shadow */
+  backdrop-filter: blur(6px); /* Add blur effect */
+  transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */
+}
+
+.nav-link:hover {
+  background-color: rgba(44, 44, 44, 0.7); /* Slightly darker on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
+  color: #ffd700; /* Highlight text color on hover */
+  transform: translateY(-2px); /* Lift effect */
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .navigation {
+    flex-direction: column;
+    padding: 1rem;
   }
-  
+
+  .nav-list {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
   .nav-link {
-    text-decoration: none;
-    color: #e0e0e0; 
-    font-weight: bold;
-    transition: color 0.3s ease;
+    width: 100%; /* Make links full width */
+    text-align: center;
   }
-  
-  .nav-link:hover {
-    color: #7a9fff; 
-  }
-  
+}

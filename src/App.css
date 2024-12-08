@@ -21,33 +21,6 @@ main {
   color: #e0e0e0; /* Light text color */
 }
 
-footer {
-  display: flex; 
-  justify-content: center; 
-  align-items: center; 
-  background-color: rgba(44, 44, 44, 0.5);
-  border-radius: 12px; 
-  border: 1px solid rgba(255, 255, 255, 0.2); 
-  color: white;
-  padding: 1rem 0;
-  width: 100%; 
-  margin-top: auto; 
-  text-align: center;
-  box-sizing: border-box; 
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
 
 @keyframes logo-spin {
   from {

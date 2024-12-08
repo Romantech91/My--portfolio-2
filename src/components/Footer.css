@@ -4,38 +4,87 @@ footer {
   justify-content: center;
   align-items: center;
   background-color: rgba(44, 44, 44, 0.5); /* Semi-transparent */
-  color: #e0e0e0;
-  padding: 1.5rem 0;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle border */
+  color: white;
+  padding: 1rem 0;
   width: 100%;
   margin-top: auto;
   text-align: center;
   box-sizing: border-box;
-  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5); /* Slight shadow to separate footer from content */
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5); /* Slight shadow to separate footer */
+  gap: 1rem;
 }
 
-.social-icons {
-  display: flex;
+.social-icons a {
+  display: inline-flex; /* Align icons properly */
   justify-content: center;
-  gap: 1.5rem;
-  margin-bottom: 0.5rem;
+  align-items: center;
+  text-decoration: none; /* Remove underline or decorations */
+  background: none; /* Remove background */
+  border: none; /* Remove border */
+  padding: 0; /* Reset padding */
 }
+
 
 .icon {
   color: rgba(255, 255, 255, 0.7); /* Slight transparency */
-  font-size: 1.8rem; /* Larger size for visibility */
+  font-size: 1.8rem; /* Adjust size */
   transition: color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  background: none; /* Ensure no background is applied */
+  border: none; /* Remove any border */
+  margin-left: 10px; /* Add space to the left */
+  margin-right: 10px; /* Add space to the right */
 }
 
+
 .icon:hover {
-  color: #f4e64c; /* Bright yellow glow to match the theme */
+  color: #f4e64c; /* Bright yellow glow */
   box-shadow: 0 0 15px #f4e64c; /* Glow effect */
-  transform: scale(1.1); /* Slight zoom on hover */
+  transform: scale(1.1); /* Slight zoom */
+}
+
+.footer-text a {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  background: linear-gradient(90deg, #f4e64c, #ffffff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
 }
 
 .footer-text {
   font-size: 0.9rem;
   margin-top: 0.5rem;
-  background: linear-gradient(90deg, #f4e64c, #ffffff); /* Subtle glow gradient */
+  background: linear-gradient(90deg, #f4e64c, #ffffff);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.email-link {
+  color: #f4e64c; /* Matches the gradient yellow color */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  text-decoration: underline;
+  background: none; /* Remove background */
+  border: none;
+}
+
+.email-link:hover {
+  color: #ffffff; /* Changes to white on hover */
+  text-decoration: underline;
+}
+
+/* Footer Quote */
+.footer-quote {
+  font-style: italic;
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: #d0d0d0;
+  text-align: center;
+}
+
+
