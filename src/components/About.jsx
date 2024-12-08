@@ -19,14 +19,15 @@ function About() {
         <div className="about-text">
           <h2>About Me</h2>
           <p>
-            Hi there! I'm Victor Roman, a passionate web developer with experience in building dynamic and responsive web applications using modern technologies like React, Node.js, and Express. I love solving complex problems and creating efficient solutions that provide an excellent user experience.
-          </p>
-          <p>
-            My journey into web development has been such an educational pivoting point for me. Before i decided to enter the tech world I was a contractor and truck equipment technician. Since then, I've worked on various projects ranging from simple landing pages to complex, full-stack applications.
-          </p>
-          <p>
-            When I'm not coding, I enjoy welding, kayaking, camping and of course spending time with all my loved ones. I am always eager to learn new skills and take on challenging projects that help me grow as a developer.
-          </p>
+  Hi there! I'm Victor Roman, a passionate web developer who thrives on creating dynamic and responsive web applications using modern technologies like React, Node.js, and Express. I take pride in solving complex problems and building solutions that deliver exceptional user experiences.
+</p>
+<p>
+  My journey into web development has been truly transformative. I come from a diverse background as a general contractor, welder, and truck equipment technician. Despite having no prior experience with computers, I successfully navigated a rigorous coding bootcamp and discovered my passion for tech. 
+</p>
+<p>
+  Outside of coding, you’ll find me kayaking, camping, welding, or spending quality time with my loved ones. I’m always eager to take on new challenges and continue growing as a developer. Feel free to explore my portfolio and see what I’ve been working on!
+</p>
+
           <a href={resumeFile} className="resume-link" download>Download My Resume</a>
 
         </div>

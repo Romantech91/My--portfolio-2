@@ -22,7 +22,7 @@ function Footer() {
   </a>
 </p>
 
-<p className="footer-quote">"Learn everything you can, as fast as you can."</p>
+<p className="footer-quote">"Learn everything you can, as fast as you can." -Dad</p>
     </footer>
   );
 }

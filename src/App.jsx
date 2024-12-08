@@ -13,6 +13,10 @@ function App() {
   return (
     <Router>
       <div id="root">
+      <header className="header">
+  <h1 className="greeting">Welcome! The only bugs here are the ones I haven’t fixed yet :)</h1>
+</header>
+
         <Navigation />
         <main>
           <Routes>
