@@ -27,6 +27,8 @@ function Portfolio() {
       ],
       deployLink: 'https://bbbjrn.github.io/Group03-Project-GrowZoneTracker/',
       repoLink: 'https://github.com/Bbbjrn/Group03-Project-GrowZoneTracker',
+      description: 'A web application to track plant grow zones and find optimal planting conditions.',
+      technologies: ['HTML, CSS, JavaScript, Third-party APIs'],
     },
    
   ];
@@ -37,9 +39,11 @@ function Portfolio() {
       <div className="portfolio-grid">
         {projects.map((project, index) => (
           <div key={index} className="project-wrapper">
-            <Carousel items={project.images} autoPlay={true} interval={5000} />
+            <Carousel items={project.images} autoPlay={false} interval={5000} />
             <Project
               title={project.title}
+              description={project.description}
+              technologies={['HTML', 'CSS', 'JavaScript', 'Third-party APIs']}
               deployLink={project.deployLink}
               repoLink={project.repoLink}
             />
