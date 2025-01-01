@@ -1,14 +1,14 @@
 import React from 'react';
 import Project from './Project'; 
 import Carousel from './Carousel';
-import growZoneTrackerImage from '../assets/grow-zone-tracker.jpg';
-import gtzLdCode from '../assets/gtz-l-d-code.jpg';
-import gztDark from '../assets/gzt-dark.jpg';
-import gztFavoritesCode from '../assets/gzt-favorites-code.jpg';
-import gztFavorites from '../assets/gzt-favorites.jpg';
-import gztSearch from '../assets/gzt-search.jpg';
-import gztHardiness from '../assets/gzt-hardiness.jpg';
-import gztMap from '../assets/gzt-map.jpg';
+import growZoneTrackerImage from '../assets/grow-zone-tracker/grow-zone-tracker.jpg';
+import gtzLdCode from '../assets/grow-zone-tracker/gtz-l-d-code.jpg';
+import gztDark from '../assets/grow-zone-tracker/gzt-dark.jpg';
+import gztFavoritesCode from '../assets/grow-zone-tracker/gzt-favorites-code.jpg';
+import gztFavorites from '../assets/grow-zone-tracker/gzt-favorites.jpg';
+import gztSearch from '../assets/grow-zone-tracker/gzt-search.jpg';
+import gztHardiness from '../assets/grow-zone-tracker/gzt-hardiness.jpg';
+import gztMap from '../assets/grow-zone-tracker/gzt-map.jpg';
 import './Portfolio.css'; 
 
 function Portfolio() {
