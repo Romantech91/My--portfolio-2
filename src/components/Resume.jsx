@@ -1,6 +1,7 @@
 import React from 'react';
-import resumeFile from '../assets/Victor-A.-Roman-Resume.pdf'; 
+import resumeFile from '../assets/Tech-resume.pdf'; 
 import './Resume.css'; 
+
 
 function Resume() {
   return (
@@ -10,26 +11,96 @@ function Resume() {
       <a href={resumeFile} download className="resume-download">Download My Resume</a>
       <h3>Proficiencies</h3>
       <ul>
-        <li>JavaScript (ES6+)</li>
-        <li>React.js</li>
-        <li>Node.js & Express</li>
-        <li>HTML & CSS</li>
-        <li>SQL & NoSQL Databases</li>
-        <li>RESTful APIs</li>
-        <li>Git & GitHub</li>
-        <li>Node</li>
-        <li>Typescript</li>
-        <li>OOP</li>
-        <li>JSON</li>
-        <li>Fetch</li>
-        <li>Bootstrap</li>
-        <li>Developer Tools</li>
-        <li>Responsive Design</li>
-        <li>Command Line</li>
-        
-        {/* Add more proficiencies as needed */}
+        <li>
+          <span>JavaScript (ES6+)</span>
+        </li>
+        <li>
+          <span>React.js</span>
+        </li>
+        <li>
+          <span>Node.js & Express</span>
+        </li>
+        <li>
+          <span>HTML & CSS</span>
+        </li>
+        <li>
+          <span>SQL & NoSQL Databases</span>
+        </li>
+        <li>
+          <span>RESTful APIs</span>
+        </li>
+        <li>
+          <span>Git & GitHub</span>
+        </li>
+        <li>
+          <span>TypeScript</span>
+        </li>
+        <li>
+          <span>OOP</span>
+        </li>
+        <li>
+          <span>JSON</span>
+        </li>
+        <li>
+          <span>Fetch</span>
+        </li>
+        <li>
+          <span>Bootstrap</span>
+        </li>
+        <li>
+          <span>Developer Tools</span>
+        </li>
+        <li>
+          <span>Responsive Design</span>
+        </li>
+        <li>
+          <span>Command Line</span>
+        </li>
+        <li>
+          <span>Agile Methodologies</span>
+        </li>
+        <li>
+          <span>Debugging</span>
+        </li>
+        <li>
+          <span>MongoDB</span>
+        </li>
+        <li>
+          <span>GraphQL</span>
+        </li>
+        <li>
+          <span>Cypress</span>
+        </li>
+        <li>
+          <span>React Router</span>
+        </li>
+        <li>
+          <span>PostgresSQL</span>
+        </li>
+        <li>
+          <span>Sequelize</span>
+        </li>
+        <li>
+          <span>Mern</span>
+        </li>
+        <li>
+          <span>Authentication and Authorization</span>
+        </li>
+        <li>
+          <span>JWT</span>
+        </li>
+        <li>
+          <span>Testing</span>
+        </li>
+        <li>
+          <span>CI/CD pipelines</span>
+        </li>
+        <li>
+          <span>Python</span>
+        </li>
+
       </ul>
-    </section>
+   </section>
   );
 }
 
