@@ -12,7 +12,7 @@ This is my personal portfolio website showcasing my skills, projects, and experi
 
 You can view the live demo of the application here: [Live Demo](https://rococo-hotteok-bea893.netlify.app/)
 
-![Screenshot](src/assets/applicationscreenshot.jpg)
+![Screenshot](src/assets/portfolio-screenshot.jpg)
 
 ## Installation
 
