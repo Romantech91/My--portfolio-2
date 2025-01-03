@@ -25,6 +25,12 @@ import trekMateMaps from '../assets/trek-mate/trek-mate-maps.jpg';
 import trekMateMutations from '../assets/trek-mate/trek-mate-mutations.jpg';
 import trekMateResults from '../assets/trek-mate/trek-mate-results.jpg';
 import trekMateSatellite from '../assets/trek-mate/trek-mate-satellite.jpg';
+import testSuiteComponentTesting from '../assets/test-suite/test-suite-component-testing.jpg';
+import testSuiteComponentjsx from '../assets/test-suite/test-suite-componentjsx.jpg';
+import testSuiteCypress from '../assets/test-suite/test-suite-cypress.jpg';
+import testSuiteCypresse2e from '../assets/test-suite/test-suite-cypresse2e.jpg';
+import testSuiteQuizJs from '../assets/test-suite/test-suite-quiz-js.jpg';
+import testSuiteTestTerminal from '../assets/test-suite/test-suite-test-terminal.jpg';
 import './Portfolio.css'; 
 
 function Portfolio() {
@@ -79,6 +85,21 @@ function Portfolio() {
       repoLink: 'https://github.com/Romantech91/Trek-Mate',
       description: 'A full-stack application that allows users to find hiking trails near them save their favorite trails, and view trail details.',
       technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT Authentication', 'CSS', 'Third-party APIs', 'GraphQL', 'Apollo Server', 'Apollo Client', 'MongoDB Atlas', 'Mongoose', 'Bootstrap'],
+    },
+    {
+      title: 'Test-Suite',
+      images: [
+        { src: testSuiteComponentTesting, alt: 'Test-Suite Component Testing' },
+        { src: testSuiteComponentjsx, alt: 'Test-Suite Component JSX' },
+        { src: testSuiteCypress, alt: 'Test-Suite Cypress' },
+        { src: testSuiteCypresse2e, alt: 'Test-Suite Cypress E2E' },
+        { src: testSuiteQuizJs, alt: 'Test-Suite Quiz JS' },
+        { src: testSuiteTestTerminal, alt: 'Test-Suite Test Terminal' },
+      ],
+      deployLink: 'https://drive.google.com/file/d/1sg36filapAFqf1HA8N_IncSIXEfYXkK3/view',
+      repoLink: 'https://github.com/Romantech91/Test-Suite',
+      description: 'This project involves setting up a test suite for the Tech Quiz application. The application, built on the MERN stack (MongoDB, Express.js, React, Node.js), allows users to take a quiz and view their score. The goal of this project was to implement testing using Cypress, with both component and end-to-end tests.',
+      technologies: ['MongoDB', 'Express.js', 'React', 'Node.js', 'Cypress'], 
     }
 
   ];
