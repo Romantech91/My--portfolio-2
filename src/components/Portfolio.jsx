@@ -17,6 +17,14 @@ import kanbanTicketApiEndpont from '../assets/kanban-board/kanban-ticket-api-end
 import kanbanTicketSeed from '../assets/kanban-board/kanban-ticket-seed.jpg';
 import kanbanUserApiEndpoint from '../assets/kanban-board/kanban-user-api-endpoint.jpg';
 import kanbanUserSeed from '../assets/kanban-board/kanban-user-seed.jpg';
+import trekMateAuth from '../assets/trek-mate/trek-mate-auth.jpg';
+import trekMateLanding from '../assets/trek-mate/trek-mate-landing.jpg';
+import trekMateCard from '../assets/trek-mate/trek-mate-card.jpg';
+import trekMateInfowindow from '../assets/trek-mate/trek-mate-infowindow.jpg';
+import trekMateMaps from '../assets/trek-mate/trek-mate-maps.jpg';
+import trekMateMutations from '../assets/trek-mate/trek-mate-mutations.jpg';
+import trekMateResults from '../assets/trek-mate/trek-mate-results.jpg';
+import trekMateSatellite from '../assets/trek-mate/trek-mate-satellite.jpg';
 import './Portfolio.css'; 
 
 function Portfolio() {
@@ -53,8 +61,25 @@ function Portfolio() {
       //deployLink: 'https://kanban-board-ahvd.onrender.com/',
       repoLink: 'https://github.com/Romantech91/Kanban-Board',
       description: 'A full-stack application that allows users to create, update, and manage tasks',
-      technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT Authentication', 'CSS'],
+      technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT Authentication', 'CSS', 'TypeScript', 'bcrypt', 'Bootstrap', 'Render'],
     },
+    {
+      title: 'Trek-Mate',
+      images: [
+        { src: trekMateAuth, alt: 'trek-mate-authentication' },
+        { src: trekMateLanding, alt: 'trek-mate-landing' },
+        { src: trekMateCard, alt: 'trek-mate-card' },
+        { src: trekMateInfowindow, alt: 'trek-mate-infowindow' },
+        { src: trekMateMaps, alt: 'trek-mate-maps' },
+        { src: trekMateMutations, alt: 'trek-mate-mutations' },
+        { src: trekMateResults, alt: 'trek-mate-results' },
+        { src: trekMateSatellite, alt: 'trek-mate-satellite' },
+      ],
+      deployLink: 'https://trek-mate.onrender.com//',
+      repoLink: 'https://github.com/Romantech91/Trek-Mate',
+      description: 'A full-stack application that allows users to find hiking trails near them save their favorite trails, and view trail details.',
+      technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT Authentication', 'CSS', 'Third-party APIs', 'GraphQL', 'Apollo Server', 'Apollo Client', 'MongoDB Atlas', 'Mongoose', 'Bootstrap'],
+    }
 
   ];
 
