@@ -9,6 +9,14 @@ import gztFavorites from '../assets/grow-zone-tracker/gzt-favorites.jpg';
 import gztSearch from '../assets/grow-zone-tracker/gzt-search.jpg';
 import gztHardiness from '../assets/grow-zone-tracker/gzt-hardiness.jpg';
 import gztMap from '../assets/grow-zone-tracker/gzt-map.jpg';
+import kanbanAuthRoutes from '../assets/kanban-board/kanban-auth-routes.jpg';
+import kanbanLanding from '../assets/kanban-board/kanban-landing.jpg';
+import kanbanLogin from '../assets/kanban-board/kanban-login.jpg';
+import kanbanTerminal from '../assets/kanban-board/kanban-terminal.jpg';
+import kanbanTicketApiEndpont from '../assets/kanban-board/kanban-ticket-api-endpoint.jpg';
+import kanbanTicketSeed from '../assets/kanban-board/kanban-ticket-seed.jpg';
+import kanbanUserApiEndpoint from '../assets/kanban-board/kanban-user-api-endpoint.jpg';
+import kanbanUserSeed from '../assets/kanban-board/kanban-user-seed.jpg';
 import './Portfolio.css'; 
 
 function Portfolio() {
@@ -28,9 +36,26 @@ function Portfolio() {
       deployLink: 'https://bbbjrn.github.io/Group03-Project-GrowZoneTracker/',
       repoLink: 'https://github.com/Bbbjrn/Group03-Project-GrowZoneTracker',
       description: 'A web application to track plant grow zones and find optimal planting conditions.',
-      technologies: ['HTML, CSS, JavaScript, Third-party APIs'],
+      technologies: ['HTML', 'CSS', 'JavaScript', 'Third-party APIs'],
     },
-   
+    {
+      title: 'Kanban Board',
+      images: [
+        { src: kanbanAuthRoutes, alt: 'Kanban Board Authentication Routes' },
+        { src: kanbanLanding, alt: 'Kanban Board Landing Page' },
+        { src: kanbanLogin, alt: 'Kanban Board Login Page' },
+        { src: kanbanTerminal, alt: 'Kanban Board Terminal' },
+        { src: kanbanTicketApiEndpont, alt: 'Kanban Board Ticket API Endpoint' },
+        { src: kanbanTicketSeed, alt: 'Kanban Board Ticket Seed' },
+        { src: kanbanUserApiEndpoint, alt: 'Kanban Board User API Endpoint' },
+        { src: kanbanUserSeed, alt: 'Kanban Board User Seed' },
+      ],
+      //deployLink: 'https://kanban-board-ahvd.onrender.com/',
+      repoLink: 'https://github.com/Romantech91/Kanban-Board',
+      description: 'A full-stack application that allows users to create, update, and manage tasks',
+      technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT Authentication', 'CSS'],
+    },
+
   ];
 
   return (
@@ -43,7 +68,7 @@ function Portfolio() {
             <Project
               title={project.title}
               description={project.description}
-              technologies={['HTML', 'CSS', 'JavaScript', 'Third-party APIs']}
+              technologies={project.technologies}
               deployLink={project.deployLink}
               repoLink={project.repoLink}
             />
