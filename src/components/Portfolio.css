@@ -1,12 +1,12 @@
 .portfolio {
-  padding: 2rem;
   color: #f4e64c; 
   max-width: 1000px; 
   margin: 0 auto; 
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   width: 100%;
-  
+  padding: 1rem;
+  box-sizing: border-box;
 }
 
 .portfolio h2 {
@@ -20,22 +20,24 @@
 .portfolio-grid {
   display: grid;
   background-color: rgba(44, 44, 44, 0.5);
-  grid-template-columns: 1fr;
-  gap: 3rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
   justify-items: center;
-  align-items: start;
+  align-items: center;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   padding: 2rem;
+  box-sizing: border-box;
 }
 
 .project {
   background-color: #292929;
   color: #e0e0e0;
   border-radius: 8px; 
-  padding: .5rem;
-  margin: 2rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  padding: 1rem;
+  margin: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
 }
 
 .project:hover {
@@ -86,9 +88,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   width: 100%;
   border-radius: 8px;
   padding: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: border-box;
 }
 
 .project-description {
@@ -169,7 +175,7 @@
   display: flex;
   justify-content: center;
   gap: 0.5rem;
-  margin-top: 0.5rem;
+  margin: 0.5rem;
 }
 
 .indicator {
@@ -195,11 +201,22 @@
 @media (max-width: 768px) {
   .portfolio-grid {
     grid-template-columns: 1fr;
-    gap: 2rem; /* Smaller grid items */
-    padding: 1rem; /* Smaller padding */
+    gap: 2rem;
+    padding: 1rem;
+    max-width: 100%;
+  }
+
+  .project {
+    max-width: 100%;
   }
 
   .project-wrapper {
-     margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Ensure consistent centering */
+    padding: 1rem;
+    margin: 0 auto;
+    max-width: 300px; /* Adjust for smaller devices */
+    box-sizing: border-box;
   }
 }
