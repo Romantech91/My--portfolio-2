@@ -69,3 +69,35 @@
   color: inherit; /* Inherit the yellow color from the parent */
   margin-top: 0.5rem;
 }
+/* Mobile responsiveness */
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .resume {
+    width: 90%; /* Increase container width for better fit */
+    padding: 1.5rem; /* Reduce padding for more space */
+    margin: 1.5rem auto; /* Center the container on smaller screens */
+  }
+
+  .resume h3 {
+    font-size: 1.5rem; /* Adjust heading size */
+    margin-bottom: 1rem; /* Add margin for spacing */
+  }
+
+  .resume ul {
+    max-width: 100%; /* Ensure the proficiency list takes full width */
+    margin: 1rem auto; /* Center the proficiency list */
+    padding: 0;
+  }
+
+  .resume ul li {
+    padding: 0.5rem; /* Adjust padding for items */
+    font-size: 1rem; /* Make text more readable */
+  }
+
+  .resume-download {
+    padding: 0.8rem 1.5rem; /* Adjust button padding */
+    font-size: 1rem; /* Adjust button text size */
+  }
+}
+
+
