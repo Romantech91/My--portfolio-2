@@ -4,7 +4,7 @@
 import React from 'react';
 import './About.css';
 import profilePhoto from '../assets/VictorProfile.jpg';
-import resumeFile from '../assets/Tech-resume.pdf';
+import resumeFile from '../assets/Victor_Resume.pdf';
 
 function About() {
   return (
